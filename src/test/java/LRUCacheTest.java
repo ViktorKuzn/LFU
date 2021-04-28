@@ -12,7 +12,7 @@ public class LRUCacheTest {
     }
 
     @Test
-    public void testCacheStartsEmpty() {
+    public void testCacheEmpty() {
         assertEquals(lruCache.get(1), -1);
     }
 
